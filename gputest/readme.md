@@ -78,6 +78,8 @@ conda install ipykernel jupyter
 
 conda install spyder
 
+conda install matplotlib
+
 python -m ipykernel install --user --name pyt-gpu2 --display-name "PyTorch-GPU"
 
 
