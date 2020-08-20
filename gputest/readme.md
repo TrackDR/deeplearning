@@ -82,4 +82,10 @@ conda install matplotlib
 
 python -m ipykernel install --user --name pyt-gpu2 --display-name "PyTorch-GPU"
 
+conda uninstall pillow
+
+pip install pillow
+
+conda install torchvision -c pytorch
+
 
