@@ -1,4 +1,4 @@
-### Update conda first 
+### Update (Ana)conda first 
 conda update conda
 
 conda update anaconda
