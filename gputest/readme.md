@@ -64,5 +64,20 @@ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 
 pip install -r requirements.txt
 
+git clone https://github.com/TrackDR/tutorials-1.git
+
+cd tutorials-1
+
+pip install -r requirements.txt
+
+conda install torchaudio -c pytorch
+
+pip install -r requirements.txt
+
+conda install ipykernel jupyter
+
+conda install spyder
+
+python -m ipykernel install --user --name pyt-gpu2 --display-name "PyTorch-GPU"
 
 
