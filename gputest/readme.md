@@ -6,6 +6,8 @@ https://pytorch.org/get-started/locally/#anaconda
 
 https://pytorch.org/get-started/locally/#windows-verification
 
+https://pytorch.org/tutorials
+
 ### Update (Ana)conda first 
 conda update conda
 
@@ -46,3 +48,21 @@ conda info --envs
 conda activate pyt-gpu
 
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+
+### Pytorch install alt
+conda create --name pyt-gpu2
+
+conda info --envs
+
+conda activate pyt-gpu2
+
+git clone https://github.com/pytorch/tutorials.git
+
+cd tutorials
+
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+
+pip install -r requirements.txt
+
+
+
