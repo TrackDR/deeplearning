@@ -1,3 +1,11 @@
+Based on https://www.pugetsystems.com/labs/hpc/How-to-Install-TensorFlow-with-GPU-Support-on-Windows-10-Without-Installing-CUDA-UPDATED-1419/
+
+and
+
+https://pytorch.org/get-started/locally/#anaconda
+
+https://pytorch.org/get-started/locally/#windows-verification
+
 ### Update (Ana)conda first 
 conda update conda
 
