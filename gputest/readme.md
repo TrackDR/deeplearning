@@ -1,4 +1,4 @@
-### Tensorflow-gpu install
+### Update conda first 
 conda update conda
 
 conda update anaconda
@@ -7,6 +7,7 @@ conda update python
 
 conda update --all
 
+### Tensorflow-gpu install
 conda create --name tf-gpu
 
 conda info --envs
@@ -30,4 +31,10 @@ OPTIONAL: pip install tf-nightly
 python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
 
 ### Pytorch install
+conda create --name pyt-gpu
+
+conda info --envs
+
+conda activate pyt-gpu
+
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
