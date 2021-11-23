@@ -53,6 +53,14 @@ or
 
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
+conda install ipykernel jupyter
+
+conda install spyder
+
+conda install matplotlib
+
+python -m ipykernel install --user --name pyt-gpu --display-name "PyTorch-GPU"
+
 ### Pytorch install alt
 conda create --name pyt-gpu2 python=3.8
 
@@ -84,7 +92,7 @@ conda install spyder
 
 conda install matplotlib
 
-python -m ipykernel install --user --name pyt-gpu2 --display-name "PyTorch-GPU"
+python -m ipykernel install --user --name pyt-gpu2 --display-name "PyTorch-GPU2"
 
 conda uninstall pillow
 
