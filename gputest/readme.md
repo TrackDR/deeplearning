@@ -18,7 +18,7 @@ conda update python
 conda update --all
 
 ### Tensorflow-gpu install
-conda create --name tf-gpu python=3.8
+conda create --name tf-gpu python=3.9
 
 conda info --envs
 
@@ -41,7 +41,7 @@ OPTIONAL: pip install tf-nightly
 python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
 
 ### Pytorch install
-conda create --name pyt-gpu python=3.8
+conda create --name pyt-gpu python=3.9
 
 conda info --envs
 
@@ -62,7 +62,7 @@ conda install matplotlib
 python -m ipykernel install --user --name pyt-gpu --display-name "PyTorch-GPU"
 
 ### Pytorch install alt
-conda create --name pyt-gpu2 python=3.8
+conda create --name pyt-gpu2 python=3.9
 
 conda info --envs
 
