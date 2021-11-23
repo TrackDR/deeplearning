@@ -48,6 +48,8 @@ conda info --envs
 conda activate pyt-gpu
 
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+or
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
 ### Pytorch install alt
 conda create --name pyt-gpu2 python=3.8
