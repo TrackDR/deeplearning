@@ -11,3 +11,5 @@ input_name = onnx_session.get_inputs()[0].name
 onnx_inputs = {input_name:img.numpy()}
 onnx_output = onnx_session.run(None, onnx_inputs)
 img_label = onnx_output[0]
+maxidx = img_label.argmax()
+maxval = img_label[0,maxidx]
