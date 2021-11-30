@@ -6,3 +6,4 @@ print(x)
 
 print("Cuda Available:",torch.cuda.is_available())
 print("Cuda version:",torch.version.cuda)
+print("Cuda Device:", torch.cuda.get_device_name())
