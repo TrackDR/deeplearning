@@ -61,6 +61,12 @@ conda install matplotlib
 
 python -m ipykernel install --user --name pyt-gpu --display-name "PyTorch-GPU"
 
+conda install -c conda-forge onnx
+
+pip install onnxruntime
+
+conda install -c conda-forge opencv
+
 ### Pytorch install alt
 conda create --name pyt-gpu2 python=3.9
 
