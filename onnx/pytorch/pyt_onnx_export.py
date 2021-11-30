@@ -1,4 +1,5 @@
 # https://deci.ai/resources/blog/how-to-convert-a-pytorch-model-to-onnx/
+# conda install -c conda-forge onnx
 
 import torch
 import torchvision.models as models
