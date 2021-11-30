@@ -1,5 +1,6 @@
 from __future__ import print_function
 import torch
+from torch.utils.collect_env import get_pretty_env_info
 
 x = torch.rand(5, 3)
 print(x)
@@ -11,3 +12,4 @@ print("Cuda Device Capability:", torch.cuda.get_device_capability())
 current_device = torch.cuda.current_device()
 print("Current Device:",current_device)
 torch.cuda.get_device_properties(current_device)
+print(get_pretty_env_info())
