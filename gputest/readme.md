@@ -41,7 +41,7 @@ OPTIONAL: pip install tf-nightly
 python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
 
 ### Tensorflow-gpu install and vggface
-conda create --name tf-gpu-vggface python=3.9
+conda create --name tfkerasvggface-gpu python=3.9
 
 conda info --envs
 
