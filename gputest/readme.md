@@ -51,9 +51,9 @@ conda install tensorflow-gpu
 
 conda install scikit-image
 
-# conda install keras
+### conda install keras
 
-# tf.keras-vggface needs pyyaml, pillow, numpy, h5py, scipy, keras, six (numpy & scipy get installed due to tensorflow, pillow & pyyaml due to scikit-image, h5py & six already there)
+### tf.keras-vggface needs pyyaml, pillow, numpy, h5py, scipy, keras, six (numpy & scipy get installed due to tensorflow, pillow & pyyaml due to scikit-image, h5py & six already there)
 #pip install keras_vggface
 pip install git+https://github.com/JanderHungrige/tf.keras-vggface
 
