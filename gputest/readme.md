@@ -55,7 +55,7 @@ conda install ipykernel jupyter
 
 conda install spyder
 
-python -m ipykernel install --user --name tfkerasvggface-gpu --display-name "TensorFlow-GPU-tf-keras-vggface"
+python -m ipykernel install --user --name kerasvggface --display-name "keras-vggface"
 
 ### Pytorch install
 conda create --name pyt-gpu python=3.9
