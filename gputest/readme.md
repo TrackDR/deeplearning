@@ -40,6 +40,29 @@ OPTIONAL: pip install tf-nightly
 
 python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
 
+### Tensorflow-gpu install and vggface
+conda create --name tf-gpu-vggface python=3.9
+
+conda info --envs
+
+conda activate tf-gpu-vggface
+
+conda install tensorflow-gpu
+
+conda install scikit-image
+
+# conda install keras
+
+# tf.keras-vggface needs pyyaml, pillow, numpy, h5py, scipy, keras, six (numpy & scipy get installed due to tensorflow, pillow & pyyaml due to scikit-image, h5py & six already there)
+#pip install keras_vggface
+pip install git+https://github.com/JanderHungrige/tf.keras-vggface
+
+conda install ipykernel jupyter
+
+conda install spyder
+
+python -m ipykernel install --user --name tf-gpu-vggface --display-name "TensorFlow-GPU-vggface"
+
 ### Pytorch install
 conda create --name pyt-gpu python=3.9
 
