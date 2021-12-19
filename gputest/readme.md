@@ -47,10 +47,6 @@ conda info --envs
 
 conda activate pyt-gpu
 
-conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
-
-or
-
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
 conda install ipykernel jupyter
