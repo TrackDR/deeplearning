@@ -35,7 +35,9 @@ conda install scikit-image
 conda install pandas
 
 https://github.com/spyder-ide/spyder-terminal/issues/309
+
 -- conda install spyder
+
 conda install spyder -c conda-forge
 
 OPTIONAL: pip install tf-nightly
