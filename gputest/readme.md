@@ -33,8 +33,11 @@ conda install keras
 -- can run in google colab (https://www.tensorflow.org/tutorials) as temp fix for jupyter being dumb :(
 
 -- or run code in spyder locally (export .ipynb file to .py file and copy into spyder and can run one cell at a time like jupyter)
+
 -- may need to run at (base) python -m ipykernel install --user
+
 -- and (tf-gpu) python -m ipykernel install --user
+
 -- and (tf-gpu) python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
 
 conda install ipykernel jupyter -c conda-forge
