@@ -18,7 +18,7 @@ conda update python
 conda update --all
 
 ### Tensorflow-gpu install
-conda create --name tf-gpu python=3.9
+conda create --name tf-gpu python=3.8
 
 conda info --envs
 
@@ -31,8 +31,6 @@ conda install keras
 conda install shapely
 
 conda install scikit-image
-
-conda install ipykernel jupyter
 
 conda install pandas
 
@@ -103,5 +101,4 @@ conda uninstall pillow
 pip install pillow
 
 conda install torchvision -c pytorch
-
 
