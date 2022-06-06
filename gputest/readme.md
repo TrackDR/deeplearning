@@ -28,18 +28,6 @@ conda install tensorflow-gpu
 
 conda install keras
 
--- jupyter not working, but spyder is 
-
--- can run in google colab (https://www.tensorflow.org/tutorials) as temp fix for jupyter being dumb :(
-
--- or run code in spyder locally (export .ipynb file to .py file and copy into spyder and can run one cell at a time like jupyter)
-
--- may need to run at (base) python -m ipykernel install --user
-
--- and (tf-gpu) python -m ipykernel install --user
-
--- and (tf-gpu) python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
-
 conda install ipykernel jupyter -c conda-forge
 
 conda install shapely
@@ -57,6 +45,14 @@ conda install spyder -c conda-forge
 OPTIONAL: pip install tf-nightly
 
 python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
+
+-- may need to run at (base) python -m ipykernel install --user
+
+-- and (tf-gpu) python -m ipykernel install --user
+
+-- and (tf-gpu) python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
+
+-- if errors, may need to change the kernel in jupyter notebook and make sure notebook is "trusted"
 
 ### Pytorch install
 conda create --name pyt-gpu python=3.9
