@@ -26,6 +26,8 @@ conda activate tf-gpu
 
 conda install tensorflow-gpu
 
+conda install keras
+
 conda install shapely
 
 conda install scikit-image
