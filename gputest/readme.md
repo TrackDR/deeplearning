@@ -28,7 +28,11 @@ conda install tensorflow-gpu
 
 conda install keras
 
--- jupyter not working
+-- jupyter not working, but spyder is 
+
+-- can run in google colab as temp fix for jupyter being dumb :(
+
+-- or run code in spyder locally
 
 conda install ipykernel jupyter -c conda-forge
 
