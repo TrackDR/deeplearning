@@ -28,6 +28,8 @@ conda install tensorflow-gpu
 
 conda install keras
 
+-- jupyter not working
+
 conda install ipykernel jupyter -c conda-forge
 
 conda install shapely
