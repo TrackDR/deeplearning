@@ -30,7 +30,7 @@ conda install keras
 
 -- jupyter not working, but spyder is 
 
--- can run in google colab as temp fix for jupyter being dumb :(
+-- can run in google colab (https://www.tensorflow.org/tutorials) as temp fix for jupyter being dumb :(
 
 -- or run code in spyder locally
 
