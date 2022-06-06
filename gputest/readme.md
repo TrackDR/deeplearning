@@ -28,6 +28,8 @@ conda install tensorflow-gpu
 
 conda install keras
 
+conda install ipykernel jupyter -c conda-forge
+
 conda install shapely
 
 conda install scikit-image
@@ -39,8 +41,6 @@ https://github.com/spyder-ide/spyder-terminal/issues/309
 -- conda install spyder
 
 conda install spyder -c conda-forge
-
-conda install ipykernel jupyter -c conda-forge
 
 OPTIONAL: pip install tf-nightly
 
