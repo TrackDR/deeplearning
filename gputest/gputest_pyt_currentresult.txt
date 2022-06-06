@@ -1,3 +1,4 @@
+(pyt-gpu) F:\git-deeplearning\deeplearning-2021-12-19-952bbbe\gputest>python gputest_pyt.py
 tensor([[0.8207, 0.2462, 0.4150],
         [0.0654, 0.5930, 0.0533],
         [0.6447, 0.8820, 0.1206],
