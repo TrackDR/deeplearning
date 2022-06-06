@@ -18,7 +18,7 @@ conda update python
 conda update --all
 
 ### Tensorflow-gpu install
-conda create --name tf-gpu python=3.8
+conda create --name tf-gpu python=3.9
 
 conda info --envs
 
