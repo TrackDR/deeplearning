@@ -40,6 +40,8 @@ https://github.com/spyder-ide/spyder-terminal/issues/309
 
 conda install spyder -c conda-forge
 
+conda install ipykernel jupyter -c conda-forge
+
 OPTIONAL: pip install tf-nightly
 
 python -m ipykernel install --user --name tf-gpu --display-name "TensorFlow-GPU"
