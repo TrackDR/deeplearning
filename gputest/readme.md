@@ -125,7 +125,21 @@ conda activate intel-sklearn
 
 conda install scikit-learn-intelex
 
+conda install pandas
+
 conda install ipykernel jupyter -c conda-forge
 
 python -m ipykernel install --user --name intel-sklearn --display-name "Intel-Sklearn"
+
+conda install spyder -c conda-forge
+
+### Remove an environment
+
+conda activate base
+
+conda remove --name env --all
+
+### go to F:\anaconda3\envs and remove directory as well
+
+
 
