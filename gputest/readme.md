@@ -116,3 +116,14 @@ pip install pillow
 
 conda install torchvision -c pytorch
 
+### Intel scikit-learn
+conda create --name intel-sklearn python=3.9
+
+conda info --envs
+
+conda activate sklearn
+
+conda install ipykernel jupyter -c conda-forge
+
+python -m ipykernel install --user --name intel-sklearn --display-name "Intel-Sklearn"
+
