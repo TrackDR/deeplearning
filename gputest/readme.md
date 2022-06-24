@@ -131,3 +131,13 @@ python -m ipykernel install --user --name intel-sklearn --display-name "Intel-Sk
 
 conda install spyder -c conda-forge
 
+### Remove an environment
+
+conda activate base
+
+conda remove --name env --all
+
+### go to F:\anaconda3\envs and remove directory as well
+
+
+
