@@ -61,7 +61,7 @@ conda info --envs
 
 conda activate pyt-gpu
 
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 
 conda install ipykernel jupyter
 
@@ -88,7 +88,7 @@ git clone https://github.com/pytorch/tutorials.git
 
 cd tutorials
 
-conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 
 pip install -r requirements.txt
 
