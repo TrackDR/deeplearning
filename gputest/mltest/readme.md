@@ -31,3 +31,4 @@ conda install spyder -c conda-forge
 
 # scikit-learn-intelex 
 - https://github.com/intel/scikit-learn-intelex
+- https://github.com/intel/scikit-learn-intelex/tree/master/examples/notebooks
