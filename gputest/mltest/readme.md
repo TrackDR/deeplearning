@@ -15,6 +15,8 @@ comda install scikit-image
 
 conda install matplotlib
 
+conda install dpctl
+
 conda install ipykernel jupyter -c conda-forge
 
 python -m ipykernel install --user --name intel-sklearn --display-name "Intel-Sklearn"
