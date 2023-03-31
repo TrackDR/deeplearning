@@ -1,3 +1,5 @@
+# Only for Intel GPU
+
 import numpy as np
 import dpctl
 from sklearnex import patch_sklearn, config_context
