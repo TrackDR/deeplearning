@@ -4,4 +4,4 @@ scikit-image
 
 scikit-learn
 
-scikit-learn-intelex
+scikit-learn-intelex - https://github.com/intel/scikit-learn-intelex
