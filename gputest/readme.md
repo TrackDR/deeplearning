@@ -116,27 +116,6 @@ pip install pillow
 
 conda install torchvision -c pytorch
 
-### Intel scikit-learn
-conda create --name intel-sklearn python=3.9
-
-conda info --envs
-
-conda activate intel-sklearn
-
-conda install scikit-learn-intelex
-
-conda install pandas
-
-comda install scikit-image
-
-conda install matplotlib
-
-conda install ipykernel jupyter -c conda-forge
-
-python -m ipykernel install --user --name intel-sklearn --display-name "Intel-Sklearn"
-
-conda install spyder -c conda-forge
-
 ### Remove an environment
 
 conda activate base
