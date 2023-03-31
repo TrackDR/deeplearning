@@ -127,6 +127,8 @@ conda install scikit-learn-intelex
 
 conda install pandas
 
+comda install scikit-image
+
 conda install ipykernel jupyter -c conda-forge
 
 python -m ipykernel install --user --name intel-sklearn --display-name "Intel-Sklearn"
