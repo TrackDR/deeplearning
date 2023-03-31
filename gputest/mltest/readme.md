@@ -1,12 +1,33 @@
 # Testing for ML Libraries
 
-scikit-image
+### Intel scikit-learn
+conda create --name intel-sklearn python=3.9
+
+conda info --envs
+
+conda activate intel-sklearn
+
+conda install scikit-learn-intelex
+
+conda install pandas
+
+comda install scikit-image
+
+conda install matplotlib
+
+conda install ipykernel jupyter -c conda-forge
+
+python -m ipykernel install --user --name intel-sklearn --display-name "Intel-Sklearn"
+
+conda install spyder -c conda-forge
+
+# scikit-image
 - https://scikit-image.org
 - https://github.com/scikit-image/skimage-tutorials
 
-scikit-learn
+# scikit-learn
 - https://scikit-learn.org
 - https://github.com/scikit-learn/scikit-learn
 
-scikit-learn-intelex 
+# scikit-learn-intelex 
 - https://github.com/intel/scikit-learn-intelex
