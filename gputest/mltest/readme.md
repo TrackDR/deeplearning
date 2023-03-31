@@ -1,5 +1,14 @@
 # Testing for ML Libraries
 
+### Update (Ana)conda first 
+conda update conda
+
+conda update anaconda
+
+conda update python
+
+conda update --all
+
 ### Intel scikit-learn
 conda create --name intel-sklearn python=3.9
 
