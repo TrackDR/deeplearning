@@ -16,6 +16,7 @@ comda install scikit-image
 conda install matplotlib
 
 conda install dpctl
+- dpctl only for intel gpu
 
 conda install ipykernel jupyter -c conda-forge
 
