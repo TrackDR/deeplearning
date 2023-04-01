@@ -36,6 +36,7 @@ conda install spyder -c conda-forge
 # scikit-image
 - https://scikit-image.org
 - https://github.com/scikit-image/skimage-tutorials
+- https://github.com/scikit-image/skimage-tutorials/tree/main/lectures
 
 # scikit-learn
 - https://scikit-learn.org
