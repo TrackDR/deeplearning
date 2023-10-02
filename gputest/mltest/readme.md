@@ -20,7 +20,7 @@ conda install scikit-learn-intelex
 
 conda install pandas
 
-comda install scikit-image
+conda install scikit-image
 
 conda install matplotlib
 
