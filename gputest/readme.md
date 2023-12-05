@@ -8,6 +8,10 @@ https://pytorch.org/get-started/locally/#windows-verification
 
 https://pytorch.org/tutorials
 
+Nvidia Control Panel-> Help-> System Information-> Components
+
+NVcuda64.dll lists installed cuda driver
+
 ### Update (Ana)conda first 
 conda update conda
 
