@@ -63,7 +63,7 @@ conda create --name pyt-gpu python=3.9
 
 conda info --envs
 
-conda activate pyt-gpu
+conda activate pyt-gpu4
 
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
@@ -73,7 +73,9 @@ conda install spyder
 
 conda install matplotlib
 
-python -m ipykernel install --user --name pyt-gpu --display-name "PyTorch-GPU"
+python -m ipykernel install --user --name pyt-gpu --display-name "PyTorch-GPU4"
+
+conda install pandas
 
 conda install -c conda-forge onnx
 
