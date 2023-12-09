@@ -8,6 +8,10 @@ https://pytorch.org/get-started/locally/#windows-verification
 
 https://pytorch.org/tutorials
 
+Nvidia Control Panel-> Help-> System Information-> Components
+
+NVcuda64.dll lists installed cuda driver
+
 ### Update (Ana)conda first 
 conda update conda
 
@@ -61,7 +65,7 @@ conda info --envs
 
 conda activate pyt-gpu
 
-conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
 conda install ipykernel jupyter
 
