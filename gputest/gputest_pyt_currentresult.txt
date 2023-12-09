@@ -1,18 +1,17 @@
-(pyt-gpu) F:\git-deeplearning\deeplearning-2021-12-19-952bbbe\gputest>python gputest_pyt.py
-tensor([[0.8207, 0.2462, 0.4150],
-        [0.0654, 0.5930, 0.0533],
-        [0.6447, 0.8820, 0.1206],
-        [0.1244, 0.3960, 0.0115],
-        [0.5041, 0.4225, 0.6965]])
+tensor([[0.1634, 0.2599, 0.2300],
+        [0.9891, 0.7816, 0.6549],
+        [0.4032, 0.0228, 0.2459],
+        [0.2543, 0.0065, 0.2484],
+        [0.1968, 0.0668, 0.9845]])
 Cuda Available: True
-Cuda version: 10.2
+Cuda version: 12.1
 Cuda Device Name: NVIDIA GeForce GTX 980 Ti
 Cuda Device Capability: (5, 2)
 Current Device: 0
 _CudaDeviceProperties(name='NVIDIA GeForce GTX 980 Ti', major=5, minor=2, total_memory=6143MB, multi_processor_count=22)
-PyTorch version: 1.10.1
+PyTorch version: 2.1.1
 Is debug build: False
-CUDA used to build PyTorch: 10.2
+CUDA used to build PyTorch: 12.1
 ROCM used to build PyTorch: N/A
 
 OS: Microsoft Windows 10 Pro
@@ -21,34 +20,49 @@ Clang version: Could not collect
 CMake version: Could not collect
 Libc version: N/A
 
-Python version: 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)] (64-bit runtime)
-Python platform: Windows-10-10.0.19043-SP0
+Python version: 3.9.18 (main, Sep 11 2023, 14:09:26) [MSC v.1916 64 bit (AMD64)] (64-bit runtime)
+Python platform: Windows-10-10.0.19045-SP0
 Is CUDA available: True
-CUDA runtime version: 11.6.55
+CUDA runtime version: 11.6.55
+CUDA_MODULE_LOADING set to: LAZY
 GPU models and configuration: GPU 0: NVIDIA GeForce GTX 980 Ti
-Nvidia driver version: 512.77
+Nvidia driver version: 546.17
 cuDNN version: Could not collect
 HIP runtime version: N/A
 MIOpen runtime version: N/A
+Is XNNPACK available: True
+
+CPU:
+Architecture=9
+CurrentClockSpeed=3501
+DeviceID=CPU0
+Family=5856
+L2CacheSize=1536
+L2CacheSpeed=
+Manufacturer=GenuineIntel
+MaxClockSpeed=3501
+Name=Intel(R) Core(TM) i7-5930K CPU @ 3.50GHz
+ProcessorType=3
+Revision=16130
 
 Versions of relevant libraries:
-[pip3] mypy-extensions==0.4.3
-[pip3] numpy==1.22.3
-[pip3] numpydoc==1.2
-[pip3] torch==1.10.1
-[pip3] torchaudio==0.10.1
-[pip3] torchvision==0.11.2
-[conda] blas                      1.0                         mkl
-[conda] cudatoolkit               10.2.89              h74a9793_1
-[conda] mkl                       2021.4.0           haa95532_640
-[conda] mkl-service               2.4.0            py39h2bbff1b_0
-[conda] mkl_fft                   1.3.1            py39h277e83a_0
-[conda] mkl_random                1.2.2            py39hf11a4ad_0
-[conda] mypy_extensions           0.4.3            py39haa95532_1
-[conda] numpy                     1.22.3           py39h7a0a035_0
-[conda] numpy-base                1.22.3           py39hca35cd5_0
-[conda] numpydoc                  1.2                pyhd3eb1b0_0
-[conda] pytorch                   1.10.1          py3.9_cuda10.2_cudnn7_0    pytorch
+[pip3] flake8==6.0.0
+[pip3] mypy-extensions==1.0.0
+[pip3] numpy==1.26.2
+[pip3] numpydoc==1.5.0
+[pip3] torch==2.1.1
+[pip3] torchaudio==2.1.1
+[pip3] torchvision==0.16.1
+[conda] blas                      1.0                         mkl  
+[conda] mkl                       2023.1.0         h6b88ed4_46358  
+[conda] mkl-service               2.4.0            py39h2bbff1b_1  
+[conda] mkl_fft                   1.3.8            py39h2bbff1b_0  
+[conda] mkl_random                1.2.4            py39h59b6b97_0  
+[conda] numpy                     1.26.2           py39h055cbcc_0  
+[conda] numpy-base                1.26.2           py39h65a83cf_0  
+[conda] numpydoc                  1.5.0            py39haa95532_0  
+[conda] pytorch                   2.1.1           py3.9_cuda12.1_cudnn8_0    pytorch
+[conda] pytorch-cuda              12.1                 hde6ce7c_5    pytorch
 [conda] pytorch-mutex             1.0                        cuda    pytorch
-[conda] torchaudio                0.10.1               py39_cu102    pytorch
-[conda] torchvision               0.11.2               py39_cu102    pytorch
+[conda] torchaudio                2.1.1                    pypi_0    pypi
+[conda] torchvision               0.16.1                   pypi_0    pypi
